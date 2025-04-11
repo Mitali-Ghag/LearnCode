@@ -1,0 +1,88 @@
+.course-card {
+  background: white;
+  border-radius: 10px;
+  padding: 12px; /* Reduced padding */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Course Image */
+.course-image {
+  width: 100%;
+  height: 130px; /* Reduced height */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Course Info */
+.course-info {
+  padding: 8px 0; /* Reduced padding */
+}
+
+.course-title {
+  font-size: 16px; /* Slightly smaller */
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.course-instructor,
+.course-duration {
+  font-size: 13px; /* Smaller text */
+  color: gray;
+  margin-bottom: 2px;
+}
+
+/* Star Ratings */
+.rating {
+  display: flex;
+  align-items: center;
+  color: gold;
+  font-size: 13px;
+}
+
+.rating span {
+  margin-left: 3px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Price Tag */
+.course-price {
+  font-weight: bold;
+  font-size: 15px;
+  color: #007bff;
+}
+
+/* Enroll Button */
+.enroll-btn {
+  display: block;
+  padding: 8px; /* Smaller button */
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.enroll-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile Friendly */
+@media (max-width: 768px) {
+  .course-card {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
