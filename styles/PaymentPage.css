@@ -1,0 +1,42 @@
+.payment-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-course-info {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .course-thumbnail {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .payment-options h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .payment-options label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pay-btn {
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  

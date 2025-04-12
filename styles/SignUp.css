@@ -1,0 +1,137 @@
+/* General Styles for the Signup Page */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fc;
+}
+
+.signup-box {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select,
+textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focused input field styles */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Error message styling */
+.error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Switch Text Styling (for login page link) */
+.switch-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+.switch-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.switch-text a:hover {
+  text-decoration: underline;
+}
+
+/* Instructor Specific Fields */
+input[type="text"], textarea {
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+input[type="url"] {
+  width: 100%;
+}
+
+select {
+  font-size: 1rem;
+  padding: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-box {
+    width: 90%;
+    padding: 30px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
